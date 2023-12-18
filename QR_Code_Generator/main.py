@@ -21,6 +21,6 @@ myqr.add_data(makeQR)
 
 img = myqr.make_image(fill_color="#422F90", back_color="white")  
 
-# hexcode blade runner 2049:  #932F8C #441d4b #3422F90 
+# hexcode blade runner 2049:  #932F8C #441d4b #422F90 
 
 img.save(os.path.join(output_directory, filename))
