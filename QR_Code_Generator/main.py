@@ -19,6 +19,8 @@ myqr = qrcode.QRCode(version=1,
 # myqr.add_data("https://github.com/TahmidRaven")
 myqr.add_data(makeQR)
 
-img = myqr.make_image(fill_color="#932F8C", back_color="white")  # hexcode #932F8C #441d4b
+img = myqr.make_image(fill_color="#422F90", back_color="white")  
+
+# hexcode blade runner 2049:  #932F8C #441d4b #3422F90 
 
 img.save(os.path.join(output_directory, filename))
