@@ -1,1 +1,3 @@
 tinyprojvenv/
+tinyprojvenv/.env
+*.env
